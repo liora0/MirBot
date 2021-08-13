@@ -1,0 +1,40 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later!", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "I’m happy to have been of use!"]
+        },
+        {"tag": "tired",
+         "patterns": ["I am really tired", "Tips to combat tiredness?", "Tired", "Exhausted" ],
+         "responses": ["Try some coffee or tea for a little caffeine boost", "Take a short nap -- less than 30 minutes", "Move a little! Do some quick stretches", "Extend your arms over your head and try to get a good stretch in!", "Try a yoga pose, like child's pose", "Chew a piece of gum!"]
+        },
+        {"tag": "unmotivated",
+         "patterns": ["Unmotivated", "Need to get motivated", "Behind" ],
+         "responses": ["Make a list of what you need to do", "Allocate time in your day for that task","Remember your end goal", "Try starting it! Do it for 5 minutes and if you still don't want to do it take a break, but do the whole five minutes!","Get dressed, put on an outfit that makes you motivated!", "Do another simple task to get you in the right mindset!"]
+        },
+        {"tag": "break",
+         "patterns": ["I need a break", "I want to stop", "I am not working"],
+         "responses": ["Take a 5-15 minute break, then get back to it!", "You have been working hard! Take a quick walk", "Try some yoga poses!", "Call a friend for a quick chat", "Try a word search or a sudoku", "Get a snack!", "Listen to your favorite playlist to relax and energize!"]
+        },
+    {"tag": "congratulations",
+    "patterns": ["I finished a task", "I'm done", "Finished"],
+     "responses": ["Yay", "You are amazing", "That's awesome", "Thanks for including me in your success!", "I am so proud of you!!!","Keep being awesome", "Use this win as motivation for your next task!"]
+    },
+    {"tag": "Getting Started",
+         "patterns": ["I don't know where to start?", "How to start?", "Starting", "I can’t get myself to start working"],
+         "responses": ["Make a study playlist","Write down all your assignments -- Put pen to paper!","Choose one assignment to start with","Take time to reflect! Get a pen or pencil and jot down what you’re feeling."]
+        },
+ {"tag": "Motivational Quotes",
+         "patterns": ["I need some encouragement", "I need encouragement", "Can you give me some inspiration?", "Tell me a motivational quote"],
+         "responses": ["Sometimes, things may not go your way, but the effort should be there every single time - Michael Jordan", "Action is the foundational key to all success - Picasso", "Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy. - Norman Vincent Peale", "The journey of a thousand miles begins with one step - Lao Tzu"]
+        }
+      ]
+    }
